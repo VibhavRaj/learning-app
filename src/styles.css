@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,4 +16,54 @@
   --light-brown: #fefcbf;
   --light-black: #2b313b;
   --dark-black: #24292e;
+}
+html,
+body {
+  font-family: "Quicksand", sans-serif;
+  height: 100%;
+  width: 100%;
+  background: var(--dark-white);
+}
+.feather {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  color: var(--dark-gray);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: var(--dark-black);
+}
+h1 {
+  font-size: 44px;
+}
+h2 {
+  font-size: 38px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 26px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 14px;
+}
+p,
+a,
+li {
+  color: var(--dark-gray);
 }
