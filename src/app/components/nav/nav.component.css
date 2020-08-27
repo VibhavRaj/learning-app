@@ -4,6 +4,7 @@ nav {
   bottom: 0;
   display: flex;
   justify-content: space-evenly;
+  z-index: 21;
 }
 ul {
   width: 400px;
