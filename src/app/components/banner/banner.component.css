@@ -52,3 +52,19 @@ h3 {
   border-radius: 10px;
   border: none;
 }
+.input {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 568px) {
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
