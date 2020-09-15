@@ -23,7 +23,7 @@ h3 {
   padding: 7px;
   border: 2px solid var(--white);
   min-width: 200px;
-  max-width: 350px;
+  max-width: 320px;
 }
 .search-box:focus-within {
   border: 2px solid var(--light-gray);
@@ -51,6 +51,16 @@ h3 {
   padding: 10px 15px;
   border-radius: 10px;
   border: none;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 568px) {
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
 }
 .input {
   font-size: 20px;
