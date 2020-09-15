@@ -1,11 +1,11 @@
 import { Component, OnInit, AfterViewInit } from "@angular/core";
 import * as Feather from "feather-icons";
 @Component({
-  selector: "app-banner",
-  templateUrl: "./banner.component.html",
-  styleUrls: ["./banner.component.css"],
+  selector: "app-profile",
+  templateUrl: "./profile.component.html",
+  styleUrls: ["./profile.component.css"],
 })
-export class BannerComponent implements OnInit, AfterViewInit {
+export class ProfileComponent implements OnInit, AfterViewInit {
   constructor() {}
 
   ngOnInit() {}
